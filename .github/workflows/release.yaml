@@ -1,0 +1,22 @@
+name: Semantic Release
+on:
+  pull_request:
+    types:
+      - closed
+    branches:
+      - main
+    paths:
+      - action.yaml
+jobs:
+  semantic-release:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          # this makes the semantic-release git plugin push as the runner, which allows us to bypass branch protection
+          token: ${{ secrets.AUTOMATION_PAT }}
+      - uses: catalystsquad/action-release-action@main
+        with:
+          token: ${{ secrets.AUTOMATION_PAT }}
