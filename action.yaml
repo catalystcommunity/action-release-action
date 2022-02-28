@@ -1,4 +1,4 @@
-name: Generate Readme and Release Action #
+name: Generate Readme and Release Action
 description: 'Generates the README based on the action.yaml, then performs a semantic release of the action, updating the v1 tag to the latest tag'
 inputs:
   token:
