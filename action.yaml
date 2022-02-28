@@ -11,7 +11,7 @@ inputs:
   release-config:
     description: 'The release configuration to use for the release. Set this to `@catalystsquad/release-config-javascript-actions` for javascript actions'
     required: false
-    default: '@catalystsquad/release-config-actions'
+    default: '@catalystsquad/release-config-composite-actions'
 runs:
   using: composite
   steps:
