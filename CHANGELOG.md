@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/catalystsquad/action-release-action/compare/v1.0.2...v1.0.3) (2022-04-01)
+
+
+### Bug Fixes
+
+* Specify which branch to commit readme back to. "main" is already checked out when this workflow runs, but the auto commit action defaults to head_ref so for PR triggers you must specify the branch name. ([#5](https://github.com/catalystsquad/action-release-action/issues/5)) ([95b75df](https://github.com/catalystsquad/action-release-action/commit/95b75df808baa0fcb545cffc6d18129705cf8e54))
+
 ## [1.0.2](https://github.com/catalystsquad/action-release-action/compare/v1.0.1...v1.0.2) (2022-04-01)
 
 
