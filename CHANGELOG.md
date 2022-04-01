@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/catalystsquad/action-release-action/compare/v1.0.0...v1.0.1) (2022-04-01)
+
+
+### Bug Fixes
+
+* Update order of operations for a release ([#3](https://github.com/catalystsquad/action-release-action/issues/3)) ([d7b9fa8](https://github.com/catalystsquad/action-release-action/commit/d7b9fa847be050123bfdfb95e49d98a345ebfbfe))
+
 # 1.0.0 (2022-02-28)
 
 
