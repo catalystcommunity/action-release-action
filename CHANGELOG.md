@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/catalystsquad/action-release-action/compare/v1.0.3...v1.0.4) (2022-04-01)
+
+
+### Bug Fixes
+
+* Checkout main, not the commit that triggered the workflow. That commit is already out of date. ([#6](https://github.com/catalystsquad/action-release-action/issues/6)) ([ff5e96b](https://github.com/catalystsquad/action-release-action/commit/ff5e96b15a62b4c85a3fb7bdde96d1b4de78c842))
+
 ## [1.0.3](https://github.com/catalystsquad/action-release-action/compare/v1.0.2...v1.0.3) (2022-04-01)
 
 
