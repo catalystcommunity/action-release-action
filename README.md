@@ -28,16 +28,21 @@ Generates the README based on the action.yaml, then performs a semantic release 
     # `@catalystsquad/release-config-javascript-actions` for javascript actions
     # Default: @catalystsquad/release-config-composite-actions
     release-config: ""
+
+    # Branch to update the readme on
+    # Default: main
+    main-branch-name: ""
 ```
 
 <!-- end usage -->
 <!-- start inputs -->
 
-| **Input**            | **Description**                                                                                                                                                                |                    **Default**                    | **Required** |
-| :------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-----------------------------------------------: | :----------: |
-| **`token`**          | git token to use for the run                                                                                                                                                   |                                                   |   **true**   |
-| **`toggle-admins`**  | If true, this action will disable the `include administrators` setting in branch protection for this branch, and re-enable it after release. Re-enabling is run using always() |                                                   |  **false**   |
-| **`release-config`** | The release configuration to use for the release. Set this to `@catalystsquad/release-config-javascript-actions` for javascript actions                                        | `@catalystsquad/release-config-composite-actions` |  **false**   |
+| **Input**              | **Description**                                                                                                                                                                |                    **Default**                    | **Required** |
+| :--------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-----------------------------------------------: | :----------: |
+| **`token`**            | git token to use for the run                                                                                                                                                   |                                                   |   **true**   |
+| **`toggle-admins`**    | If true, this action will disable the `include administrators` setting in branch protection for this branch, and re-enable it after release. Re-enabling is run using always() |                                                   |  **false**   |
+| **`release-config`**   | The release configuration to use for the release. Set this to `@catalystsquad/release-config-javascript-actions` for javascript actions                                        | `@catalystsquad/release-config-composite-actions` |  **false**   |
+| **`main-branch-name`** | Branch to update the readme on                                                                                                                                                 |                      `main`                       |  **false**   |
 
 <!-- end inputs -->
 <!-- start outputs -->
