@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/catalystsquad/action-release-action/compare/v1.0.1...v1.0.2) (2022-04-01)
+
+
+### Bug Fixes
+
+* Checkout main before updating readme ([#4](https://github.com/catalystsquad/action-release-action/issues/4)) ([de43ca4](https://github.com/catalystsquad/action-release-action/commit/de43ca48535ca5284fdc96741cb9a1f59b2179ce))
+
 ## [1.0.1](https://github.com/catalystsquad/action-release-action/compare/v1.0.0...v1.0.1) (2022-04-01)
 
 
