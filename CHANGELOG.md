@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/catalystsquad/action-release-action/compare/v1.0.4...v1.0.5) (2023-01-10)
+
+
+### Bug Fixes
+
+* adjust semantic version action version ([#8](https://github.com/catalystsquad/action-release-action/issues/8)) ([c759794](https://github.com/catalystsquad/action-release-action/commit/c759794328f1ec60d91ffb4d698de3ee8ab61435))
+
 ## [1.0.4](https://github.com/catalystsquad/action-release-action/compare/v1.0.3...v1.0.4) (2022-04-01)
 
 
