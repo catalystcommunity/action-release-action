@@ -13,7 +13,7 @@ Generates the README based on the action.yaml, then performs a semantic release 
 <!-- start usage -->
 
 ```yaml
-- uses: catalystsquad/action-release-action@undefined
+- uses: catalystcommunity/action-release-action@undefined
   with:
     # git token to use for the run
     token: ""
@@ -25,8 +25,8 @@ Generates the README based on the action.yaml, then performs a semantic release 
     toggle-admins: ""
 
     # The release configuration to use for the release. Set this to
-    # `@catalystsquad/release-config-javascript-actions` for javascript actions
-    # Default: @catalystsquad/release-config-composite-actions
+    # `@catalystcommunity/release-config-javascript-actions` for javascript actions
+    # Default: @catalystcommunity/release-config-composite-actions
     release-config: ""
 
     # Branch to update the readme on
@@ -41,7 +41,7 @@ Generates the README based on the action.yaml, then performs a semantic release 
 | :--------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-----------------------------------------------: | :----------: |
 | **`token`**            | git token to use for the run                                                                                                                                                   |                                                   |   **true**   |
 | **`toggle-admins`**    | If true, this action will disable the `include administrators` setting in branch protection for this branch, and re-enable it after release. Re-enabling is run using always() |                                                   |  **false**   |
-| **`release-config`**   | The release configuration to use for the release. Set this to `@catalystsquad/release-config-javascript-actions` for javascript actions                                        | `@catalystsquad/release-config-composite-actions` |  **false**   |
+| **`release-config`**   | The release configuration to use for the release. Set this to `@catalystcommunity/release-config-javascript-actions` for javascript actions                                        | `@catalystcommunity/release-config-composite-actions` |  **false**   |
 | **`main-branch-name`** | Branch to update the readme on                                                                                                                                                 |                      `main`                       |  **false**   |
 
 <!-- end inputs -->
@@ -73,7 +73,7 @@ jobs:
     if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     steps:
-      - uses: catalystsquad/action-release-action@v1
+      - uses: catalystcommunity/action-release-action@v1
         with:
           token: ${{ secrets.AUTOMATION_PAT }}
           release-config: ${{ secrets.JS_ACTION_RELEASE_CONFIG }}
