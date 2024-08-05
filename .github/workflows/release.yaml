@@ -17,6 +17,6 @@ jobs:
         with:
           # this makes the semantic-release git plugin push as the runner, which allows us to bypass branch protection
           token: ${{ secrets.AUTOMATION_PAT }}
-      - uses: catalystsquad/action-release-action@main
+      - uses: catalystcommunity/action-release-action@main
         with:
           token: ${{ secrets.AUTOMATION_PAT }}
